@@ -23,18 +23,39 @@ Ideal es una plataforma de código abierto diseñada para facilitar la colaborac
 ¡Agradecemos y animamos a todas las contribuciones! Si deseas contribuir al desarrollo de Ideal, por favor sigue estos pasos:
 
 1. Realiza un fork del repositorio.
-2. Crea una rama para tu nueva funcionalidad (`git switch -b nueva-funcionalidad`).
-3. Realiza tus cambios y haz commits (`git commit -am 'Agrega nueva funcionalidad'`).
-4. Haz push a la rama (`git push origin nueva-funcionalidad`).
-5. Abre un Pull Request.
+2. Crea una rama para tu nueva funcionalidad
+   ```bash
+   git switch -b nueva-funcionalidad
+   ```
+4. Realiza tus cambios y haz commits
+    ```bash
+    git commit -am 'Agrega nueva funcionalidad'
+    ```
+6. Haz push a la rama
+   ```
+   git push origin nueva-funcionalidad
+   ```
+8. Abre un Pull Request.
 
 ## Instalación Local
 
 Para ejecutar Ideal localmente, sigue estos pasos:
 
-1. Clona el repositorio (`git clone https://github.com/tu-usuario/ideal.git`).
-2. Navega al directorio del proyecto (`cd ideal`).
-3. Instala las dependencias (`npm install`).
-4. Inicia la aplicación (`npm run start`).
+1. Clona el repositorio
+   ```
+   git clone https://github.com/tu-usuario/ideal.git`
+   ```
+3. Navega al directorio del proyecto
+   ```
+    cd ideal
+   ```
+5. Instala las dependencias
+   ```
+   npm install
+   ```
+7. Inicia la aplicación
+   ```
+   npm run start
+   ```
 
 ¡Esperamos que Ideal sea una herramienta valiosa para la comunidad estudiantil de la FIUNI y que todos puedan beneficiarse de la colaboración y el intercambio de conocimientos!
