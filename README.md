@@ -1,54 +1,40 @@
-# Astro Starter Kit: Basics
+# Ideal: Plataforma de Colaboración para Alumnos de la FIUNI
 
-```sh
-npm create astro@latest -- --template basics
-```
+## Descripción del Proyecto
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Ideal es una plataforma de código abierto diseñada para facilitar la colaboración entre estudiantes de la FIUNI (Facultad de Ingeniería de la Universidad Nacional de Itapúa). La finalidad principal de esta plataforma es permitir a los alumnos compartir y colaborar en la creación de materiales y recursos educativos destinados a todas las carreras de ingeniería y en todos los semestres.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Características Principales
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- **Colaboración Abierta:** Ideal fomenta un entorno de colaboración abierto donde los estudiantes pueden contribuir con sus conocimientos y experiencias para beneficiar a la comunidad estudiantil en su conjunto.
 
-## 🚀 Project Structure
+- **Soporte para Todas las Carreras y Semestres:** La plataforma está diseñada para ser inclusiva y abarcar todas las carreras de ingeniería, así como todos los semestres académicos.
 
-Inside of your Astro project, you'll see the following folders and files:
+- **Astro:** Utiliza Astro para crear un entorno de desarrollo consistente y eficiente, facilitando la construcción y despliegue de la plataforma.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- **Decap CMS:** Integra Netlify CMS para gestionar fácilmente el contenido, permitiendo a los usuarios agregar y editar materiales de manera intuitiva sin necesidad de conocimientos técnicos avanzados.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- **Colaboración Basada en Git:** Ideal utiliza un enfoque basado en Git para la colaboración, lo que significa que los cambios en los materiales se gestionan de manera eficiente a través de control de versiones.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- **MDX por Alumnos para Alumnos:** El contenido generado en la plataforma se presenta en formato MDX, proporcionando flexibilidad y permitiendo una presentación enriquecida y atractiva, todo creado por y para los alumnos.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Contribución
 
-## 🧞 Commands
+¡Agradecemos y animamos a todas las contribuciones! Si deseas contribuir al desarrollo de Ideal, por favor sigue estos pasos:
 
-All commands are run from the root of the project, from a terminal:
+1. Realiza un fork del repositorio.
+2. Crea una rama para tu nueva funcionalidad (`git switch -b nueva-funcionalidad`).
+3. Realiza tus cambios y haz commits (`git commit -am 'Agrega nueva funcionalidad'`).
+4. Haz push a la rama (`git push origin nueva-funcionalidad`).
+5. Abre un Pull Request.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Instalación Local
 
-## 👀 Want to learn more?
+Para ejecutar Ideal localmente, sigue estos pasos:
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+1. Clona el repositorio (`git clone https://github.com/tu-usuario/ideal.git`).
+2. Navega al directorio del proyecto (`cd ideal`).
+3. Instala las dependencias (`npm install`).
+4. Inicia la aplicación (`npm run start`).
+
+¡Esperamos que Ideal sea una herramienta valiosa para la comunidad estudiantil de la FIUNI y que todos puedan beneficiarse de la colaboración y el intercambio de conocimientos!
